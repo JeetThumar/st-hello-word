@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib  # or import pickle
+import pickle #import joblib
 import pandas as pd
 
 # Load the trained model
