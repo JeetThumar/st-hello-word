@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 # Load the trained model
-model = joblib.load('delivery_time_model.pkl')  # Adjust the path accordingly
+model = pickle.load('delivery_time_model.pkl')  # Adjust the path accordingly
 
 # Title of the app
 st.title('Delivery Time Prediction')
